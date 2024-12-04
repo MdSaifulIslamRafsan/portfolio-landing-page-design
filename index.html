@@ -20,7 +20,7 @@
   </style>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-black">
+<body class="bg-black text-white">
     <header>
         <nav
         class="bg-black fixed z-50  w-full top-0 p-5"
@@ -41,7 +41,7 @@
 
           <!-- Buy Now Button -->
           <button
-            class="hidden md:block bg-[#E6AA32] px-6 py-2 rounded-full font-bold hover:bg-[#c7ea6e]"
+            class="hidden md:block bg-[#E6AA32] px-6 py-2 rounded-full font-bold "
           >
           Downlaod CV 
           </button>
@@ -83,13 +83,35 @@
               >
             </li>
             <button
-              class="w-full bg-[#E6AA32] px-6 py-2 rounded-full font-bold hover:bg-[#c7ea6e]"
+              class="w-full text-black bg-[#E6AA32] px-6 py-2 rounded-full font-bold "
             >
             Downlaod CV 
         </button>
           </ul>
         </div>
       </nav>
+      
+      <!-- Hero Section -->
+      <section class="pt-32 container w-11/12 mx-auto flex flex-col-reverse lg:flex-row justify-between items-center gap-20">
+            <div class="space-y-5 flex-1">
+                <p class="text-sm text-[#797C86] font-light">Web Developer</p>
+                <h1 class="text-3xl lg:text-7xl font-bold">HI! This is  <span class="text-[#E6AA32]">Zahid Hossain</span></h1>
+                <p class="text-[#797C86] font-light">
+                    As a web designer with four years of experience, I specialize in creating visually appealing and user-friendly websites. My expertise includes responsive design, UI/UX principles, and collaborating with clients to bring their visions to life.                </p>
+                <div class="lg:flex lg:flex-row gap-5 lg:items-center">
+                    <a href="#" class="bg-[#E6AA32] px-10 py-3 rounded-full text-black font-bold  inline-block">
+                        Let’s Connect
+                    </a>
+                    <a href="#" class="py-3 block rounded-full mt-3 lg:mt-0 font-bold ">
+                        View Portfolios
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div  class=" flex-1">
+                <img src="img/Frame 12250.png" alt="hero-img">
+            </div>
+      </section>
     </header>
 </body>
 </html>
