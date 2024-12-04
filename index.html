@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahid</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <!-- Tailwind CSS for responsive menu -->
+  <style>
+    /* When the menu toggle is checked, show the mobile menu */
+    #menu-toggle:checked + #mobile-menu {
+      transform: translateY(70px);
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black">
+    <header>
+        <nav
+        class="bg-black fixed z-50  w-full top-0 p-5"
+      >
+        <div class="container w-11/12 mx-auto flex items-center justify-between">
+          <!-- Logo with Font Awesome Icon -->
+          <div class="flex items-center gap-2">
+            <h1 class="text-white text-2xl font-bold">Zahid</h1>
+          </div>
+
+          <!-- Desktop Menu -->
+          <ul class="hidden md:flex gap-6 text-white">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+
+          <!-- Buy Now Button -->
+          <button
+            class="hidden md:block bg-[#E6AA32] px-6 py-2 rounded-full font-bold hover:bg-[#c7ea6e]"
+          >
+          Downlaod CV 
+          </button>
+
+          <!-- Mobile Menu Button (Hamburger) -->
+          <label
+            for="menu-toggle"
+            class="md:hidden text-2xl text-[#0F0F0F] cursor-pointer"
+          >
+            <i class="fas fa-bars"></i>
+          </label>
+
+          <!-- Hidden Checkbox for Mobile Menu Toggle -->
+          <input type="checkbox" id="menu-toggle" class="hidden" />
+
+          <!-- Mobile Menu -->
+          <ul
+            class="absolute shadow-2xl border left-0 right-0 top-0 p-5 bg-white md:hidden transition-transform transform -translate-y-full"
+            id="mobile-menu"
+          >
+            <li>
+              <a href="#" class="block text-[#0F0F0F] hover:text-[#D8FB78] py-2"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#about" class="block text-[#0F0F0F] hover:text-[#D8FB78] py-2"
+                >About Me</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="block text-[#0F0F0F] hover:text-[#D8FB78] py-2"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#testimonials" class="block text-[#0F0F0F] hover:text-[#D8FB78] py-2"
+                >Testimonials</a
+              >
+            </li>
+            <button
+              class="w-full bg-[#E6AA32] px-6 py-2 rounded-full font-bold hover:bg-[#c7ea6e]"
+            >
+            Downlaod CV 
+        </button>
+          </ul>
+        </div>
+      </nav>
+    </header>
+</body>
+</html>
