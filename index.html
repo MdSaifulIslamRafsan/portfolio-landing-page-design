@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zahid</title>
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-  <!-- Tailwind CSS for responsive menu -->
-  <style>
-    /* When the menu toggle is checked, show the mobile menu */
-    #menu-toggle:checked + #mobile-menu {
-      transform: translateY(70px);
-    }
-  </style>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-black text-white">
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Tailwind CSS for responsive menu -->
+    <style>
+      /* When the menu toggle is checked, show the mobile menu */
+      #menu-toggle:checked + #mobile-menu {
+        transform: translateY(70px);
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-black text-white">
     <header>
-        <nav
-        class="bg-black fixed z-50  w-full top-0 p-5"
-      >
-        <div class="container w-11/12 mx-auto flex items-center justify-between">
+      <nav class="bg-black fixed z-50 w-full top-0 p-5">
+        <div
+          class="container w-11/12 mx-auto flex items-center justify-between"
+        >
           <!-- Logo with Font Awesome Icon -->
           <div class="flex items-center gap-2">
             <h1 class="text-white text-2xl font-bold">Zahid</h1>
@@ -41,9 +41,9 @@
 
           <!-- Buy Now Button -->
           <button
-            class="hidden md:block bg-[#E6AA32] px-6 py-2 rounded-full font-bold "
+            class="hidden md:block bg-[#E6AA32] px-6 py-2 rounded-full font-bold"
           >
-          Downlaod CV 
+            Downlaod CV
           </button>
 
           <!-- Mobile Menu Button (Hamburger) -->
@@ -68,50 +68,163 @@
               >
             </li>
             <li>
-              <a href="#about" class="block text-[#0F0F0F] hover:text-[#D8FB78] py-2"
+              <a
+                href="#about"
+                class="block text-[#0F0F0F] hover:text-[#D8FB78] py-2"
                 >About Me</a
               >
             </li>
             <li>
-              <a href="#projects" class="block text-[#0F0F0F] hover:text-[#D8FB78] py-2"
+              <a
+                href="#projects"
+                class="block text-[#0F0F0F] hover:text-[#D8FB78] py-2"
                 >Projects</a
               >
             </li>
             <li>
-              <a href="#testimonials" class="block text-[#0F0F0F] hover:text-[#D8FB78] py-2"
+              <a
+                href="#testimonials"
+                class="block text-[#0F0F0F] hover:text-[#D8FB78] py-2"
                 >Testimonials</a
               >
             </li>
             <button
-              class="w-full text-black bg-[#E6AA32] px-6 py-2 rounded-full font-bold "
+              class="w-full text-black bg-[#E6AA32] px-6 py-2 rounded-full font-bold"
             >
-            Downlaod CV 
-        </button>
+              Downlaod CV
+            </button>
           </ul>
         </div>
       </nav>
-      
+
       <!-- Hero Section -->
-      <section class="pt-32 container w-11/12 mx-auto flex flex-col-reverse lg:flex-row justify-between items-center gap-20">
-            <div class="space-y-5 flex-1">
-                <p class="text-sm text-[#797C86] font-light">Web Developer</p>
-                <h1 class="text-3xl lg:text-7xl font-bold">HI! This is  <span class="text-[#E6AA32]">Zahid Hossain</span></h1>
-                <p class="text-[#797C86] font-light">
-                    As a web designer with four years of experience, I specialize in creating visually appealing and user-friendly websites. My expertise includes responsive design, UI/UX principles, and collaborating with clients to bring their visions to life.                </p>
-                <div class="lg:flex lg:flex-row gap-5 lg:items-center">
-                    <a href="#" class="bg-[#E6AA32] px-10 py-3 rounded-full text-black font-bold  inline-block">
-                        Let’s Connect
-                    </a>
-                    <a href="#" class="py-3 block rounded-full mt-3 lg:mt-0 font-bold ">
-                        View Portfolios
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-            <div  class=" flex-1">
-                <img src="img/Frame 12250.png" alt="hero-img">
-            </div>
+      <section
+        class="pt-32 container w-11/12 mx-auto flex flex-col-reverse lg:flex-row justify-between items-center gap-20"
+      >
+        <div class="space-y-3 flex-1">
+          <p class="text-[#797C86] font-light">Web Developer</p>
+          <h1 class="text-3xl lg:text-7xl font-bold">
+            HI! This is <span class="text-[#E6AA32]">Zahid Hossain</span>
+          </h1>
+          <p class="text-[#797C86] font-light">
+            As a web designer with four years of experience, I specialize in
+            creating visually appealing and user-friendly websites. My expertise
+            includes responsive design, UI/UX principles, and collaborating with
+            clients to bring their visions to life.
+          </p>
+          <div class="lg:flex lg:flex-row gap-5 lg:items-center">
+            <a
+              href="#"
+              class="bg-[#E6AA32] px-10 py-3 rounded-full text-black font-bold inline-block"
+            >
+              Let’s Connect
+            </a>
+            <a href="#" class="py-3 block rounded-full mt-3 lg:mt-0 font-bold">
+              View Portfolios
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="flex-1">
+          <img src="img/Frame 12250.png" alt="hero-img" />
+        </div>
       </section>
     </header>
-</body>
+    <main class="container w-11/12 mx-auto">
+      <!-- My Specialties section -->
+      <section class="py-20">
+        <div class="space-y-3 max-w-xl mx-auto text-center">
+          <p class="text-[#797C86] font-light">Specialties</p>
+          <h2 class="text-5xl font-bold">My Specialties</h2>
+          <p class="text-[#797C86] font-light">
+            As a web designer with four years of experience, I specialize in
+            creating visually appealing and user-friendly websites. My expertise
+            includes responsive design.
+          </p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 pt-10">
+          <a
+            class="rounded-lg p-4 bg-[#0E0E10] border-2 border-solid border-black/5 transition-all flex flex-col items-stretch justify-start gap-2 py-10 text-center"
+            href="#"
+          >
+            <h2 class="font-bold text-lg">Front-End Development</h2>
+            <p class="text-xs">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </a>
+          <a
+            class="rounded-lg p-4 bg-[#0E0E10] border-2 border-solid border-black/5 transition-all flex flex-col items-stretch justify-start gap-2 py-10 text-center"
+            href="#"
+          >
+            <h2 class="font-bold text-lg">Back-End Development</h2>
+            <p class="text-xs">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </a>
+          <a
+            class="rounded-lg p-4 bg-[#0E0E10] border-2 border-solid border-black/5 transition-all flex flex-col items-stretch justify-start gap-2 py-10 text-center"
+            href="#"
+          >
+            <h2 class="font-bold text-lg">Full-Stack Development</h2>
+            <p class="text-xs">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </a>
+          <a
+            class="rounded-lg p-4 bg-[#0E0E10] border-2 border-solid border-black/5 transition-all flex flex-col items-stretch justify-start gap-2 py-10 text-center"
+            href="#"
+          >
+            <h2 class="font-bold text-lg">Web Application Security</h2>
+            <p class="text-xs">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </a>
+          <a
+            class="rounded-lg p-4 bg-[#0E0E10] border-2 border-solid border-black/5 transition-all flex flex-col items-stretch justify-start gap-2 py-10 text-center"
+            href="#"
+          >
+            <h2 class="font-bold text-lg">E-commerce Development</h2>
+            <p class="text-xs">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </a>
+          <a
+            class="rounded-lg p-4 bg-[#0E0E10] border-2 border-solid border-black/5 transition-all flex flex-col items-stretch justify-start gap-2 py-10 text-center"
+            href="#"
+          >
+            <h2 class="font-bold text-lg">Cloud-Based Development</h2>
+            <p class="text-xs">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </a>
+          <a
+            class="rounded-lg p-4 bg-[#0E0E10] border-2 border-solid border-black/5 transition-all flex flex-col items-stretch justify-start gap-2 py-10 text-center"
+            href="#"
+          >
+            <h2 class="font-bold text-lg">Progressive Web Apps</h2>
+            <p class="text-xs">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </a>
+          <a
+            class="rounded-lg p-4 bg-[#0E0E10] border-2 border-solid border-black/5 transition-all flex flex-col items-stretch justify-start gap-2 py-10 text-center"
+            href="#"
+          >
+            <h2 class="font-bold text-lg">AI-Powered Development</h2>
+            <p class="text-xs">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
